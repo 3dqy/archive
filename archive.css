@@ -22,9 +22,9 @@
     align-items: center;
     padding-right: 10%; padding-left: 10%;
   }
-  .dark-mode .at{
+  /* .dark-mode .at{
     color: #cae8ff; 
-  }
+  } */
   .dm{
   color: #050A30; font-size: 2vmax; 
   }
@@ -40,7 +40,7 @@
     margin-left: -5%;
   }
   .logo2 img{
-    max-width: 90%;
+    max-width: 80%;
     margin-left: -100%; 
     justify-content: left;
   }
@@ -126,7 +126,7 @@
   div2 {
     padding-right: 2%;
     padding-left: 2%;
-    transition: --num 1.5s;
+    transition: --num 2.7s;
     counter-set: num var(--num);
     font: 700 2.2vmax system-ui;
   }
@@ -206,15 +206,15 @@
   
   .card__title {
     margin: 0;
-    font-size: 2vmax;
+    font-size: 1.6vmax;
     color: #333;
     font-weight: 700;
   }
   .card__description {
-    margin: 10px 0 0;
-    font-size: 1.6vmax;
+    margin: 7px 0 0;
+    font-size: 1.3vmax;
     color: #050A30;
-    line-height: 1.4;
+    line-height: 1;
   }
 
   @property --num {
@@ -222,14 +222,6 @@
     initial-value: 0;
     inherits: false;
   }
-
-    
-
-
-
-
-
-
 
   /* Footer */
 footer{
@@ -414,16 +406,6 @@ footer{
     .footer-lists2 h2{
       font-size: 129%; 
     }
-      
-
-
-
-
-
-
-    
-
-
 
 
   @media only screen and (max-width: 650px) {
@@ -449,6 +431,19 @@ footer{
       box-shadow: 0 0 0 5px #050A30;
       transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
+    .card__title {
+      margin: 0;
+      font-size: 2.2vmax;
+      color: #333;
+      font-weight: 700;
+    }
+    .card__description {
+      margin: 7px 0 0;
+      font-size: 1.7vmax;
+      color: #050A30;
+      line-height: 1.2;
+    }
+  
   
     /* .register-signin {
       margin-right: -22px;
@@ -494,11 +489,6 @@ footer{
         margin-top: 5%;
         width: 200px;
     }
-  
-
-
-
-
 
     footer {
       flex-direction: column;
